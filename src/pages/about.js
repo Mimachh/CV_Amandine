@@ -22,7 +22,7 @@ const about = () => {
             <Layout className='pt-16'>
                 <AnimatedText text="Mon CV" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
-                    <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
+                    <div className='col-span-5 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Quelques informations sur moi</h2>
                         <p className='font-medium'>
                             Bonjour, je me présente en quelques lignes. Je m'appelle Amandine Gorsse je suis née le 2 avril 2000, j'ai donc 23 ans. <br /> Je suis actuellement en formation de prothésiste ongulaire. 
@@ -40,11 +40,11 @@ const about = () => {
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
                     bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
                     <div className='absolute top-1 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
-                        <Image alt='Karl Muller' src={profilePic} className='w-full h-auto rounded-2xl' 
+                        <Image alt='Amandine Gorsse' src={profilePic} className='sm:w-3/4 md:w-1/2 w-1/2 m-auto h-auto rounded-2xl' 
                         priority
                         sizes="(max-width: 768px) 100vw,
                         (max-width: 1200px) 50vw,
-                        33vw"
+                        50vw"
                         />
                     </div>
                 </div>
